@@ -2,8 +2,14 @@ package com.epam.ryabtsev;
 
 public class Test {
     public int add(int a, int b) {
-        System.out.println("This is add method");
+        System.out.println("This is add method for 2 params");
         int sum = a + b;
+        return sum;
+    }
+
+    public int add(int a, int b, int c) {
+        System.out.println("This is add method for 3 params");
+        int sum = a + b + c;
         return sum;
     }
 
