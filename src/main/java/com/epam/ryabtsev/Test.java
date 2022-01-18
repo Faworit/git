@@ -13,6 +13,12 @@ public class Test {
         return sum;
     }
 
+    public int add(int a, int b, int c, int d) {
+        System.out.println("This is add method for 4 params");
+        int sum = a + b + c + d;
+        return sum;
+    }
+
     public int subtraction(int a, int b) {
         int result = a - b;
         return result;
