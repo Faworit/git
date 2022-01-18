@@ -2,7 +2,7 @@ package com.epam.ryabtsev;
 
 public class Test {
     public int add(int a, int b) {
-        System.out.println("This is add method for 2 params");
+        System.out.println("This is add method");
         int sum = a + b;
         return sum;
     }
